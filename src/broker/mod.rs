@@ -15,6 +15,7 @@ use crate::{
 
 mod amqp;
 mod redis;
+mod sqs;
 pub use self::redis::{RedisBroker, RedisBrokerBuilder};
 pub use amqp::{AMQPBroker, AMQPBrokerBuilder};
 
